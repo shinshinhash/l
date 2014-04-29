@@ -81,3 +81,1536 @@ ActionController::RoutingError (No route matches [GET] "/home"):
   Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
   Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
   Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-28 00:40:37 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-28 00:40:38 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.2ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-28 00:40:47 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1816ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/tags/abudhabi.json: 400: Missing client_id or access_token URL parameter.):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 22:30:47 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 22:30:47 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 22:30:49 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 22:30:51 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-04-29 22:32:05 +0400
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-04-29 22:32:28 +0400
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-04-29 22:32:31 +0400
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 22:36:07 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 22:36:11 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1467ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/tags/abudhabi.json?access_token=5f8f72267cdb496c9bf9742edaf56da3: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:02:14 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.2ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:02:16 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+NameError (undefined local variable or method `abudhabi' for #<HomeController:0x007fb314959150>):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:03:35 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:03:43 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1775ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:08:59 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1649ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:10 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1260ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:14 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1108ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:24 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:52 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for #<Instagram::Client:0x007fb315160ec0>):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:54 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for #<Instagram::Client:0x007fb312e06b28>):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:09:56 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for #<Instagram::Client:0x007fb31288b658>):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:10:16 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.8ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:10:22 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:11:08 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:11:08 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:11:12 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:11:18 +0400
+
+TypeError (no implicit conversion of Module into String):
+  app/controllers/home_controller.rb:2:in `<class:HomeController>'
+  app/controllers/home_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:12:21 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:12:22 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:12:26 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:13:37 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Tags):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:13:48 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `recent_media_tag' for #<HomeController:0x007fb314ec0bc0>):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:13:55 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:15:18 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:15:25 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:21:02 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:21:06 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `recent_media_tag' for Instagram:Module):
+  app/controllers/home_controller.rb:4:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:21:22 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1120ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:22:27 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 918ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:22:40 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1110ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/users/16161288/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3&count=1: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:26:06 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:26:07 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:26:10 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_tags_media_recent' for Instagram:Module):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 23:26:52 +0400
+
+ActionController::RoutingError (uninitialized constant IndexController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-04-29 23:26:55 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1454ms
+
+Instagram::BadRequest (GET https://api.instagram.com/v1/tags/abudhabi/media/recent.json?access_token=5f8f72267cdb496c9bf9742edaf56da3: 400: The access_token provided is invalid.):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/shintaro_hashimoto/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
