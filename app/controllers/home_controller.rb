@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
-    include Instagram
+include Instagram
   def index
-      @instagram =Instagram.media_popular ()
-#@instagram = Instagram.tag_recent_media('abudhabi')
-      #@instagram = Instagram.user_recent_media(16161288, {:count => 1})
+      #@instagram =Instagram.media_popular ()
+      #@instagram = Instagram.tag_recent_media('abudhabi')
+      @instagram = Instagram.user_recent_media(66bcfd92b5a1443a8d0dac820225eba3)
   end
 end
