@@ -1,0 +1,11 @@
+<html>
+<title>Laqda</title>
+
+
+<%@seller.each do |media|%>
+<a href= <%= media["link"]=%> target="_blank">
+<img src=<%= media["images"] ["standard_resolution"]["url"]=%>  width="300" height="300">
+</a>
+<% end %>
+
+</html>

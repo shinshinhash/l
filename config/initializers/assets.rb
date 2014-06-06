@@ -1,0 +1,5 @@
+Rails.application.config.assets.precompile += %w( style.css )
+Rails.application.config.assets.precompile += %w( tipsy.css )
+Rails.application.config.assets.precompile += %w( bootstrap.css )
+Rails.application.config.assets.precompile += %w( font-awesome.css )
+Rails.application.config.assets.precompile += %w( magnific-popup.css )
